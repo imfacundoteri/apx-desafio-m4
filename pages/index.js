@@ -58,7 +58,7 @@ function addServices() {
       const container = document.createElement("div");
       title.textContent = item.title;
       description.textContent = item.description;
-      image.src = "../img/services/services.svg";
+      image.src = "./img/services/services.svg";
       content.appendChild(container);
       container.appendChild(image);
       container.appendChild(title);
